@@ -25,12 +25,16 @@ body {
   .user-account-control .profile-photo {
     margin: 0 10px; }
   .user-account-control .fa-th {
-    color: rgba(0, 0, 0, 0.87); }
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.2em; }
   .user-account-control .fa-th:hover {
-    color: #000; }
+    color: #000;
+    cursor: pointer; }
+  .user-account-control .profile-photo:hover {
+    cursor: pointer; }
 
 .main-title {
-  font-size: 7em;
+  font-size: 6.2em;
   font-family: 'Roboto', sans-serif;
   letter-spacing: -5px;
   text-align: center;
@@ -61,5 +65,11 @@ body {
   align-items: center;
   justify-content: center;
   margin: 4rem 0; }
+
+#search {
+  width: 29em;
+  height: 2.1em;
+  border-radius: 1em;
+  outline: none; }
 
 /*# sourceMappingURL=style.css.map */
