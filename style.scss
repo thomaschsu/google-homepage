@@ -1,0 +1,95 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9em;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+
+    & a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    & a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+.about-store {
+    display: flex;
+    align-items: center;
+
+    a {
+        margin: 0 10px;
+    }
+}
+
+.user-account-control {
+    display: flex;
+    align-items: center;
+
+    a,
+    .fa-th,
+    .profile-photo {
+        margin: 0 10px;
+    }
+
+    .fa-th {
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    .fa-th:hover {
+        color: #000;
+    }
+}
+
+.main-title {
+    font-size: 7em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -5px;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 1.2em;
+
+    .span-1 {
+        color: #4285f4;
+    }
+
+    .span-2 {
+        color: #ea4335;
+    }
+
+    .span-3 {
+        color: #fbbc05;
+    }
+
+    .span-4 {
+        color: #4285f4;
+    }
+
+    .span-5 {
+        color: #34a853;
+    }
+
+    .span-6 {
+        display: inline-block;
+        color: #ea4335;
+        transform: rotate(-19deg);
+    }
+}
+
+.profile-photo {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+.google-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 0;
+}
