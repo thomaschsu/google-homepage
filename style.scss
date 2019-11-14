@@ -106,7 +106,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 4rem 0;
+    margin: 3em 0;
 }
 
 #search {
@@ -114,6 +114,7 @@ body {
     height: 2.1em;
     border-radius: 1em;
     outline: none;
+    border: 1px solid #dfe1e5;
 }
 
 .footer {
@@ -131,6 +132,7 @@ body {
         margin: 0 10px;
         color: rgba(0, 0, 0, 0.87);
     }
+
     a:hover {
         text-decoration: underline;
     }

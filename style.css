@@ -73,13 +73,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 4rem 0; }
+  margin: 3em 0; }
 
 #search {
   width: 29em;
   height: 2.1em;
   border-radius: 1em;
-  outline: none; }
+  outline: none;
+  border: 1px solid #dfe1e5; }
 
 .footer {
   display: flex;
